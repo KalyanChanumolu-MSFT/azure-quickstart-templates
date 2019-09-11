@@ -11,7 +11,7 @@
 		},
 		"resourceGroup": {
 			"type": "string",
-			"defaultValue": "kachanum-Databases",
+			"defaultValue": "[concat('kachanum-', uniqueString(resourceGroup().id))]",
 			"metadata": {
 				"description": "ResourceGroup Name"
 			}
