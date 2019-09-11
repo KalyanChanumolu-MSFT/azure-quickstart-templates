@@ -9,13 +9,6 @@
 				"description": "Cosmos DB account name"
 			}
 		},
-		"resourceGroup": {
-			"type": "string",
-			"defaultValue": "[concat('kachanum-', uniqueString(resourceGroup().id))]",
-			"metadata": {
-				"description": "ResourceGroup Name"
-			}
-		},
 		"location": {
 			"type": "string",
 			"defaultValue": "[resourceGroup().location]",
